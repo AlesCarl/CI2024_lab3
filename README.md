@@ -3,11 +3,23 @@
 This project implements  A* Algorithm for solving the Gem Puzzle problem.
 
 
+### Two primary heuristic approaches:
+
+
+- **Manhattan Distance** :  This is used to estimate the distance between the current puzzle state and the goal state, summing the number of moves each tile needs to reach its target position.
+- **Misplaced Tiles** : This counts the number of tiles not in their goal position, adding additional weight to encourage better intermediate states.
+
+The algorithm dynamically switches between these heuristics when a certain number of iterations are performed without improving the solution. 
+
+
+
+### Adaptive Heuristic Switching
+To mitigate stagnation in the search, the implementation includes a mechanism to alternate between heuristics after 7000 iterations without improvement.
+
+
 
 
 ## RESULTS: 
-
-
 
 
 The table below summarizes the results for different puzzle dimension, derived from a single execution of the algorithm. 
