@@ -31,7 +31,7 @@ For a dimension of 5, the execution time is highly variable, can range from a fe
 
 
 
-The exercise was carried out in collaboration with Lorenzo di Rosa  (329169)
+The exercise was carried out in collaboration with Lorenzo di Rosa  (329169).
 
 
 
